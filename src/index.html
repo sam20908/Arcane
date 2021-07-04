@@ -11,15 +11,15 @@
 <body>
     <div id="root"></div>
     <div class="container mx-auto">
-        <!-- Image BG and more descriptive heading -->
+        <!-- @TODO: Image BG and more descriptive heading -->
         <div class="shadow-md bg-red-300 items-center py-6">
             <div class="text-center">
                 <h1 class="text-xl font-extrabold w-auto text-white">Arcane</h1>
-                <p class="text-white">A GUI application that does a lot of wacky things!</p>
+                <p class="text-white">Arcane - A GUI application that does a lot of wacky things!</p>
             </div>
         </div>
         <div class="p-20 container">
-            <h2 class="text-justify font-semibold text-xl">
+            <h2 class="text-justify font-light text-2xl">
                 Arcane was originally implemented with Intermediate GUI, which meant that it was still a GUI
                 application, but it was from a different design and purpose. It wasn't a very successful implementation
                 because the idea wasn't meant to be designed with Intermediate GUI at the start, and trying to wrapping
@@ -27,22 +27,35 @@
                 made this to recreate Arcane from scratch.
             </h2>
         </div>
-        <!-- Fill with features -->
-        <div class="p-10">
-            <table class="table-fixed w-full">
-                <thead>
-                    <th class="w-1/2"></th>
-                    <th class="w-1/2"></th>
-                </thead>
-                <tr class="table-row">
-                    <th>Ability to view the stats of the hovered item</th>
-                    <th>asdf</th>
-                </tr>
-                <tr class="table-row">
-                    <th>asdf</th>
-                    <th>You can give yourself items and treat this as a sandbox!</th>
-                </tr>
-            </table>
+        <!-- @TODO: Fill with features -->
+        <table class="table-auto w-auto">
+            <thead>
+                <th class="w-1/2"></th>
+                <th class="w-1/2"></th>
+            </thead>
+            <tr class="table-row">
+                <th class="font-light text-2xl p-20">
+                    Ability to view the stats of the hovered item. It will show you all the stats that belong to the
+                    item (e.g. "magic" and "defense" on armors but just "level" on miscellaneous items).
+                </th>
+                <th>asdf</th>
+            </tr>
+            <tr class="table-row">
+                <th>asdf</th>
+                <th class="font-light text-2xl p-20">
+                    You can give yourself items and treat this as a sandbox! There are tons of items available from
+                    the original game and there are some items which are custom made!
+                </th>
+            </tr>
+        </table>
+        <div class="p-20 container">
+            <h2 class="text-justify font-light text-2xl">
+                This was what Arcane looked like when it was made with ImGUI (Intermediate GUI framework). Although it
+                looked pretty on the outside, it was super painful to add features to internally and it just felt like a
+                mess.
+            </h2>
+            <img src="https://i.gyazo.com/4e91724b0cc0c20a414759d3e1134b17.png" alt="Inventory System"
+                class="w-auto mx-auto my-16 shadow-2xl rounded-lg" />
         </div>
     </div>
 </body>
